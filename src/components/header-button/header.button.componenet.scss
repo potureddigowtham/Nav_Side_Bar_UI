@@ -1,0 +1,43 @@
+.option {
+  padding: 5%;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  line-height: 40px;
+
+  &:hover {
+    color: red;
+    background-color: white;
+  }
+}
+
+.option1 {
+  padding: 15px 40px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  line-height: 30px;
+
+  &:hover {
+    color: gray;
+    background-color: white;
+  }
+}
+
+.option2 {
+  padding: 15px 15px;
+  width: fit-content;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  line-height: 30px;
+  font-size: 3rem;
+  font-family: monospace;
+
+  &:hover {
+    color: black;
+  }
+}

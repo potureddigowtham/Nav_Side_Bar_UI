@@ -1,0 +1,20 @@
+.homepage { 
+    display: grid;
+    grid-template-columns: 15%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "s1 s2"
+    "s1 s2"
+}
+.sidebar { 
+    grid-area: s1;
+    height: 50em;
+    background-color: #db3d44;
+    border: 1px solid #db3d44;
+}
+.main { 
+    grid-area: s2;
+    height: 100%;
+    display: flex;
+    padding-left: 2em;
+}
